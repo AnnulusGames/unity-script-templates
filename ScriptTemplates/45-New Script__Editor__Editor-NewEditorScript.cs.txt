@@ -1,0 +1,21 @@
+using UnityEditor;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+// [CustomEditor(typeof(YourComponentType))]
+public class #SCRIPTNAME# : Editor
+{
+    // Called when the object is loaded.
+    void OnEnable()
+    {
+        #NOTRIM#
+    }
+
+    // Implement this function to make a custom inspector.
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+    }
+}
+
+#ROOTNAMESPACEEND#

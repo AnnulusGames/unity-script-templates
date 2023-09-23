@@ -1,0 +1,21 @@
+using UnityEditor;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+// [CustomPropertyDrawer(typeof(YourAttribute))]
+public class #SCRIPTNAME# : PropertyDrawer
+{
+    // Override this method to make your own IMGUI based GUI for the property.
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    {
+        return base.OnGUI(position, property, label);
+    }
+
+    // Override this method to specify how tall the GUI for this field is in pixels.
+    public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+    {
+        return base.GetPropertyHeight(property, label);
+    }
+}
+
+#ROOTNAMESPACEEND#

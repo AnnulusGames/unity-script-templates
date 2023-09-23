@@ -1,0 +1,12 @@
+using Unity.Burst;
+using Unity.Entities;
+using Unity.Jobs;
+using Unity.Mathematics;
+
+    #ROOTNAMESPACEBEGIN#
+[BurstCompile]
+public struct #SCRIPTNAME# : IComponentData
+{
+    
+}
+#ROOTNAMESPACEEND#

@@ -1,0 +1,27 @@
+using UnityEditor;
+using UnityEditor.UIElements;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : EditorWindow
+{
+    const string WINDOW_TITLE = "#SCRIPTNAME#";
+    const string MENU_ITEM = "Window/" + WINDOW_TITLE;
+
+    // Opens this editor window.
+    public static #SCRIPTNAME# Open()
+    {
+        var window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
+        window.Show();
+        return window;
+    }
+
+    // Implement this function to make a custom window.
+    public void CreateGUI()
+    {
+        #NOTRIM#
+    }
+}
+
+#ROOTNAMESPACEEND#
