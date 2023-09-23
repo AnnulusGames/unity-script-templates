@@ -36,42 +36,38 @@ You will need to add them again if you change the editor version. Templates with
 
 ## Templates
 
-| C# |
+| Templates |
 | - |
+| <b>C#</b> |
 | C# Class |
 | C# Struct |
 | C# Interface |
-
-| General |
 | - |
+| <b>General</b> |
 | MonoBehaviour |
 | ScriptableObject |
-
-| Editor |
 | - |
+| <b>Editor</b> |
 | Editor |
 | EditorWindow |
 | PropertyDrawer |
 | Editor (UIToolkit) |
 | EditorWindow (UIToolkit) |
 | PropertyDrawer (UIToolkit) |
-
-| ECS |
 | - |
+| <b>ECS</b> |
 | ComponentData |
 | System (ISystem) |
 | System (SystemBase) |
 | Authoring |
-
-| Text Files |
 | - |
+| <b>Text Files</b> |
 | Text |
 | Json |
 | Xml |
 | Markdown |
-
-| Others |
 | - |
+| <b>Others</b> |
 | Package Manifest |
 
 ## Contribute

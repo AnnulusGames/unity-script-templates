@@ -36,42 +36,38 @@ Mac: `/Unity.app/Contents/Resources/ScriptTemplates`
 
 ## 一覧
 
-| C# |
+| テンプレート |
 | - |
+| <b>C#</b> |
 | C# Class |
 | C# Struct |
 | C# Interface |
-
-| General |
 | - |
+| <b>General</b> |
 | MonoBehaviour |
 | ScriptableObject |
-
-| Editor |
 | - |
+| <b>Editor</b> |
 | Editor |
 | EditorWindow |
 | PropertyDrawer |
 | Editor (UIToolkit) |
 | EditorWindow (UIToolkit) |
 | PropertyDrawer (UIToolkit) |
-
-| ECS |
 | - |
+| <b>ECS</b> |
 | ComponentData |
 | System (ISystem) |
 | System (SystemBase) |
 | Authoring |
-
-| Text Files |
 | - |
+| <b>Text Files</b> |
 | Text |
 | Json |
 | Xml |
 | Markdown |
-
-| その他 |
 | - |
+| <b>その他</b> |
 | Package Manifest |
 
 ## 貢献する
