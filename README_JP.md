@@ -1,11 +1,8 @@
 # unity-script-templates
- A collection of script templates for Unity
-
-[![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
-
-[English README is here](README.md)
 
 このリポジトリはUnity向けのScriptテンプレートのコレクションです。Unityの機能に対応した多数のテンプレートを追加し、新しくScriptファイルを作成する際の手間を削減します。
+
+[English README is here](README.md)
 
 ## セットアップ
 

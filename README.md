@@ -1,11 +1,8 @@
 # unity-script-templates
- A collection of script templates for Unity
-
-[![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
-
-[日本語版READMEはこちら](README_JP.md)
 
 This repository is a collection of script templates for Unity. It includes numerous templates that are tailored to Unity features, reducing the effort required when creating new script files.
+
+[日本語版READMEはこちら](README_JP.md)
 
 ## Setup
 
