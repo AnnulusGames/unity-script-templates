@@ -15,7 +15,7 @@ There are two methods to add custom script templates to your editor.
 
 To introduce script templates into each project, follow these steps:
 
-1. Obtain the unitypackage file from the latest Releases and double-click to import it.
+1. Download the unitypackage file and double click to import it.
 2. Restart the editor. A restart is necessary to reflect the templates in the MenuItem.
 3. You can access the templates from the Create menu in the Project window.
 
@@ -27,7 +27,7 @@ You can also add ScriptTemplates directly to the Unity Editor executable.
 
 1. Ensure that the editor is not running.
 2. Open the `ScriptTemplates` folder within Unity's folder.
-3. Download the template files from the latest Releases and add them to Unity's `ScriptTemplates` folder.
+3. Download the template files and add them to Unity's `ScriptTemplates` folder.
 4. When you open the editor, you can access the templates from the Create menu in the Project window.
 
 The `ScriptTemplates` folder is located in the following locations:
