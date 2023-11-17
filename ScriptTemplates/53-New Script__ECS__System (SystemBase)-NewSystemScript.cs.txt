@@ -7,21 +7,18 @@ using Unity.Mathematics;
 [BurstCompile]
 public partial class #SCRIPTNAME# : SystemBase
 {
-    // Called when this system is created.
     [BurstCompile]
     protected override void OnCreate()
     {
         #NOTRIM#
     }
 
-    // Implement OnUpdate to perform the major work of this system.
     [BurstCompile]
     protected override void OnUpdate()
     {
         #NOTRIM#
     }
 
-    // Called when this system is destroyed.
     [BurstCompile]
     protected override void OnDestroy()
     {

@@ -7,7 +7,6 @@ public class #SCRIPTNAME# : EditorWindow
     const string WINDOW_TITLE = "#SCRIPTNAME#";
     const string MENU_ITEM = "Window/" + WINDOW_TITLE;
 
-    // Opens this editor window.
     public static #SCRIPTNAME# Open()
     {
         var window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
@@ -15,13 +14,11 @@ public class #SCRIPTNAME# : EditorWindow
         return window;
     }
 
-    // Called when this window is open.
     void OnEnable()
     {
         #NOTRIM#
     }
 
-    // Implement this function to make a custom window.
     void OnGUI()
     {
         #NOTRIM#
