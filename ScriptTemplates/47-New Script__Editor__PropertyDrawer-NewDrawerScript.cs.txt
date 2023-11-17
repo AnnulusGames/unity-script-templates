@@ -7,7 +7,7 @@ public class #SCRIPTNAME# : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-        return base.OnGUI(position, property, label);
+        base.OnGUI(position, property, label);
     }
 
     public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
