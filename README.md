@@ -2,7 +2,7 @@
 
 This repository is a collection of script templates for Unity. It includes numerous templates that are tailored to Unity features, reducing the effort required when creating new script files.
 
-[日本語版READMEはこちら](README_JP.md)
+[日本語版READMEはこちら](README_JA.md)
 
 ## Setup
 
